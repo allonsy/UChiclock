@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979456121B5F4C5E002EB893 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979456111B5F4C5E002EB893 /* Auth.swift */; };
+		979F1AE11B5DEF5E00D84E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F1AE01B5DEF5E00D84E4B /* AppDelegate.swift */; };
+		979F1AE31B5DEF5E00D84E4B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F1AE21B5DEF5E00D84E4B /* FirstViewController.swift */; };
+		979F1AE51B5DEF5E00D84E4B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F1AE41B5DEF5E00D84E4B /* SecondViewController.swift */; };
+		979F1AE81B5DEF5E00D84E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979F1AE61B5DEF5E00D84E4B /* Main.storyboard */; };
+		979F1AEA1B5DEF5E00D84E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979F1AE91B5DEF5E00D84E4B /* Assets.xcassets */; };
+		979F1AED1B5DEF5E00D84E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979F1AEB1B5DEF5E00D84E4B /* LaunchScreen.storyboard */; };
+		979F1AF81B5DEF5E00D84E4B /* UChiclockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F1AF71B5DEF5E00D84E4B /* UChiclockTests.swift */; };
+		979F1B031B5DEF5E00D84E4B /* UChiclockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F1B021B5DEF5E00D84E4B /* UChiclockUITests.swift */; };
+		97DD98591B5F4E2F00104B62 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD98581B5F4E2F00104B62 /* Connection.swift */; };
+		97DD985B1B5F571400104B62 /* uchicago.cybershift.net in Resources */ = {isa = PBXBuildFile; fileRef = 97DD985A1B5F571400104B62 /* uchicago.cybershift.net */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979F1AF41B5DEF5E00D84E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979F1AD51B5DEF5E00D84E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979F1ADC1B5DEF5E00D84E4B;
+			remoteInfo = UChiclock;
+		};
+		979F1AFF1B5DEF5E00D84E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979F1AD51B5DEF5E00D84E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979F1ADC1B5DEF5E00D84E4B;
+			remoteInfo = UChiclock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		979456111B5F4C5E002EB893 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		979F1ADD1B5DEF5E00D84E4B /* UChiclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UChiclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979F1AE01B5DEF5E00D84E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		979F1AE21B5DEF5E00D84E4B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		979F1AE41B5DEF5E00D84E4B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		979F1AE71B5DEF5E00D84E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979F1AE91B5DEF5E00D84E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979F1AEC1B5DEF5E00D84E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		979F1AEE1B5DEF5E00D84E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979F1AF31B5DEF5E00D84E4B /* UChiclockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UChiclockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979F1AF71B5DEF5E00D84E4B /* UChiclockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UChiclockTests.swift; sourceTree = "<group>"; };
+		979F1AF91B5DEF5E00D84E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979F1AFE1B5DEF5E00D84E4B /* UChiclockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UChiclockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979F1B021B5DEF5E00D84E4B /* UChiclockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UChiclockUITests.swift; sourceTree = "<group>"; };
+		979F1B041B5DEF5E00D84E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97DD98581B5F4E2F00104B62 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		97DD985A1B5F571400104B62 /* uchicago.cybershift.net */ = {isa = PBXFileReference; lastKnownFileType = file; name = uchicago.cybershift.net; path = ../../../../../Desktop/uchicago.cybershift.net; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979F1ADA1B5DEF5E00D84E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979F1AF01B5DEF5E00D84E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979F1AFB1B5DEF5E00D84E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		979F1AD41B5DEF5E00D84E4B = {
+			isa = PBXGroup;
+			children = (
+				979F1ADF1B5DEF5E00D84E4B /* UChiclock */,
+				979F1AF61B5DEF5E00D84E4B /* UChiclockTests */,
+				979F1B011B5DEF5E00D84E4B /* UChiclockUITests */,
+				979F1ADE1B5DEF5E00D84E4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		979F1ADE1B5DEF5E00D84E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979F1ADD1B5DEF5E00D84E4B /* UChiclock.app */,
+				979F1AF31B5DEF5E00D84E4B /* UChiclockTests.xctest */,
+				979F1AFE1B5DEF5E00D84E4B /* UChiclockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979F1ADF1B5DEF5E00D84E4B /* UChiclock */ = {
+			isa = PBXGroup;
+			children = (
+				979F1AE01B5DEF5E00D84E4B /* AppDelegate.swift */,
+				979F1AE21B5DEF5E00D84E4B /* FirstViewController.swift */,
+				979456111B5F4C5E002EB893 /* Auth.swift */,
+				97DD98581B5F4E2F00104B62 /* Connection.swift */,
+				979F1AE41B5DEF5E00D84E4B /* SecondViewController.swift */,
+				979F1AE61B5DEF5E00D84E4B /* Main.storyboard */,
+				979F1AE91B5DEF5E00D84E4B /* Assets.xcassets */,
+				979F1AEB1B5DEF5E00D84E4B /* LaunchScreen.storyboard */,
+				979F1AEE1B5DEF5E00D84E4B /* Info.plist */,
+				97DD985A1B5F571400104B62 /* uchicago.cybershift.net */,
+			);
+			path = UChiclock;
+			sourceTree = "<group>";
+		};
+		979F1AF61B5DEF5E00D84E4B /* UChiclockTests */ = {
+			isa = PBXGroup;
+			children = (
+				979F1AF71B5DEF5E00D84E4B /* UChiclockTests.swift */,
+				979F1AF91B5DEF5E00D84E4B /* Info.plist */,
+			);
+			path = UChiclockTests;
+			sourceTree = "<group>";
+		};
+		979F1B011B5DEF5E00D84E4B /* UChiclockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				979F1B021B5DEF5E00D84E4B /* UChiclockUITests.swift */,
+				979F1B041B5DEF5E00D84E4B /* Info.plist */,
+			);
+			path = UChiclockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979F1ADC1B5DEF5E00D84E4B /* UChiclock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979F1B071B5DEF5E00D84E4B /* Build configuration list for PBXNativeTarget "UChiclock" */;
+			buildPhases = (
+				979F1AD91B5DEF5E00D84E4B /* Sources */,
+				979F1ADA1B5DEF5E00D84E4B /* Frameworks */,
+				979F1ADB1B5DEF5E00D84E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UChiclock;
+			productName = UChiclock;
+			productReference = 979F1ADD1B5DEF5E00D84E4B /* UChiclock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		979F1AF21B5DEF5E00D84E4B /* UChiclockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979F1B0A1B5DEF5E00D84E4B /* Build configuration list for PBXNativeTarget "UChiclockTests" */;
+			buildPhases = (
+				979F1AEF1B5DEF5E00D84E4B /* Sources */,
+				979F1AF01B5DEF5E00D84E4B /* Frameworks */,
+				979F1AF11B5DEF5E00D84E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979F1AF51B5DEF5E00D84E4B /* PBXTargetDependency */,
+			);
+			name = UChiclockTests;
+			productName = UChiclockTests;
+			productReference = 979F1AF31B5DEF5E00D84E4B /* UChiclockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		979F1AFD1B5DEF5E00D84E4B /* UChiclockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979F1B0D1B5DEF5E00D84E4B /* Build configuration list for PBXNativeTarget "UChiclockUITests" */;
+			buildPhases = (
+				979F1AFA1B5DEF5E00D84E4B /* Sources */,
+				979F1AFB1B5DEF5E00D84E4B /* Frameworks */,
+				979F1AFC1B5DEF5E00D84E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979F1B001B5DEF5E00D84E4B /* PBXTargetDependency */,
+			);
+			name = UChiclockUITests;
+			productName = UChiclockUITests;
+			productReference = 979F1AFE1B5DEF5E00D84E4B /* UChiclockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979F1AD51B5DEF5E00D84E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Alec Snyder";
+				TargetAttributes = {
+					979F1ADC1B5DEF5E00D84E4B = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = HRZ8U2A68E;
+					};
+					979F1AF21B5DEF5E00D84E4B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 979F1ADC1B5DEF5E00D84E4B;
+					};
+					979F1AFD1B5DEF5E00D84E4B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 979F1ADC1B5DEF5E00D84E4B;
+					};
+				};
+			};
+			buildConfigurationList = 979F1AD81B5DEF5E00D84E4B /* Build configuration list for PBXProject "UChiclock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 979F1AD41B5DEF5E00D84E4B;
+			productRefGroup = 979F1ADE1B5DEF5E00D84E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979F1ADC1B5DEF5E00D84E4B /* UChiclock */,
+				979F1AF21B5DEF5E00D84E4B /* UChiclockTests */,
+				979F1AFD1B5DEF5E00D84E4B /* UChiclockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979F1ADB1B5DEF5E00D84E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DD985B1B5F571400104B62 /* uchicago.cybershift.net in Resources */,
+				979F1AED1B5DEF5E00D84E4B /* LaunchScreen.storyboard in Resources */,
+				979F1AEA1B5DEF5E00D84E4B /* Assets.xcassets in Resources */,
+				979F1AE81B5DEF5E00D84E4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979F1AF11B5DEF5E00D84E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979F1AFC1B5DEF5E00D84E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979F1AD91B5DEF5E00D84E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979F1AE51B5DEF5E00D84E4B /* SecondViewController.swift in Sources */,
+				979F1AE11B5DEF5E00D84E4B /* AppDelegate.swift in Sources */,
+				97DD98591B5F4E2F00104B62 /* Connection.swift in Sources */,
+				979F1AE31B5DEF5E00D84E4B /* FirstViewController.swift in Sources */,
+				979456121B5F4C5E002EB893 /* Auth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979F1AEF1B5DEF5E00D84E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979F1AF81B5DEF5E00D84E4B /* UChiclockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979F1AFA1B5DEF5E00D84E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979F1B031B5DEF5E00D84E4B /* UChiclockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979F1AF51B5DEF5E00D84E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979F1ADC1B5DEF5E00D84E4B /* UChiclock */;
+			targetProxy = 979F1AF41B5DEF5E00D84E4B /* PBXContainerItemProxy */;
+		};
+		979F1B001B5DEF5E00D84E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979F1ADC1B5DEF5E00D84E4B /* UChiclock */;
+			targetProxy = 979F1AFF1B5DEF5E00D84E4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		979F1AE61B5DEF5E00D84E4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979F1AE71B5DEF5E00D84E4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		979F1AEB1B5DEF5E00D84E4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979F1AEC1B5DEF5E00D84E4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		979F1B051B5DEF5E00D84E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		979F1B061B5DEF5E00D84E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979F1B081B5DEF5E00D84E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = UChiclock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alec.Snyder.UChiclock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		979F1B091B5DEF5E00D84E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = UChiclock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alec.Snyder.UChiclock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		979F1B0B1B5DEF5E00D84E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UChiclockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.snyder.alec.UChiclockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UChiclock.app/UChiclock";
+			};
+			name = Debug;
+		};
+		979F1B0C1B5DEF5E00D84E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UChiclockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.snyder.alec.UChiclockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UChiclock.app/UChiclock";
+			};
+			name = Release;
+		};
+		979F1B0E1B5DEF5E00D84E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UChiclockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.snyder.alec.UChiclockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UChiclock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		979F1B0F1B5DEF5E00D84E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UChiclockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.snyder.alec.UChiclockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UChiclock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979F1AD81B5DEF5E00D84E4B /* Build configuration list for PBXProject "UChiclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979F1B051B5DEF5E00D84E4B /* Debug */,
+				979F1B061B5DEF5E00D84E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979F1B071B5DEF5E00D84E4B /* Build configuration list for PBXNativeTarget "UChiclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979F1B081B5DEF5E00D84E4B /* Debug */,
+				979F1B091B5DEF5E00D84E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979F1B0A1B5DEF5E00D84E4B /* Build configuration list for PBXNativeTarget "UChiclockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979F1B0B1B5DEF5E00D84E4B /* Debug */,
+				979F1B0C1B5DEF5E00D84E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979F1B0D1B5DEF5E00D84E4B /* Build configuration list for PBXNativeTarget "UChiclockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979F1B0E1B5DEF5E00D84E4B /* Debug */,
+				979F1B0F1B5DEF5E00D84E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 979F1AD51B5DEF5E00D84E4B /* Project object */;
+}
