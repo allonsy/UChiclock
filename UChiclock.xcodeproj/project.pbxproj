@@ -17,7 +17,6 @@
 		979F1AF81B5DEF5E00D84E4B /* UChiclockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F1AF71B5DEF5E00D84E4B /* UChiclockTests.swift */; };
 		979F1B031B5DEF5E00D84E4B /* UChiclockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F1B021B5DEF5E00D84E4B /* UChiclockUITests.swift */; };
 		97DD98591B5F4E2F00104B62 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD98581B5F4E2F00104B62 /* Connection.swift */; };
-		97DD985B1B5F571400104B62 /* uchicago.cybershift.net in Resources */ = {isa = PBXBuildFile; fileRef = 97DD985A1B5F571400104B62 /* uchicago.cybershift.net */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		979F1B021B5DEF5E00D84E4B /* UChiclockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UChiclockUITests.swift; sourceTree = "<group>"; };
 		979F1B041B5DEF5E00D84E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97DD98581B5F4E2F00104B62 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
-		97DD985A1B5F571400104B62 /* uchicago.cybershift.net */ = {isa = PBXFileReference; lastKnownFileType = file; name = uchicago.cybershift.net; path = ../../../../../Desktop/uchicago.cybershift.net; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 				979F1AE91B5DEF5E00D84E4B /* Assets.xcassets */,
 				979F1AEB1B5DEF5E00D84E4B /* LaunchScreen.storyboard */,
 				979F1AEE1B5DEF5E00D84E4B /* Info.plist */,
-				97DD985A1B5F571400104B62 /* uchicago.cybershift.net */,
 			);
 			path = UChiclock;
 			sourceTree = "<group>";
@@ -241,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97DD985B1B5F571400104B62 /* uchicago.cybershift.net in Resources */,
 				979F1AED1B5DEF5E00D84E4B /* LaunchScreen.storyboard in Resources */,
 				979F1AEA1B5DEF5E00D84E4B /* Assets.xcassets in Resources */,
 				979F1AE81B5DEF5E00D84E4B /* Main.storyboard in Resources */,
