@@ -8,16 +8,19 @@
 
 import Foundation
 
+var sess : NSURLSession?;
+
 func makeConnection()
 {
-    //let sessionConfig = NSURLSessionConfiguration.defaultSessionConfiguration()
+    let sessionConfig = NSURLSessionConfiguration.defaultSessionConfiguration()
     let targetURL = NSURL(string:"https://uchicago.cybershift.net")!
     let req = NSURLRequest(URL: targetURL);
     //let URLConn = NSURLConnection(request: conn, delegate: nil);
-    let task = NSURLSession.sharedSession().dataTaskWithRequest(req, completionHandler: dataHandler)
+    sess = NSURLSession(configuration:sessionConfig)
+    let task = sess!.dataTaskWithRequest(req, completionHandler: dataHandler)
+    
     
     task.resume()
-    
 }
 
 func dataHandler( tup : (NSData?,NSURLResponse?, NSError?))
@@ -27,8 +30,20 @@ func dataHandler( tup : (NSData?,NSURLResponse?, NSError?))
         print("error: \(tup.2)")
         return
     }
-    let (dat, _, _) = tup
+    let (dat, resp, _) = tup
+    let httpResp : NSHTTPURLResponse = resp! as! NSHTTPURLResponse
+    print("Reponse header: \(httpResp.allHeaderFields)")
+    print("cookies are: \(filter(isFromCyberShift,sess!.configuration.HTTPCookieStorage!.cookies!))")
     let response = NSString.init(data:dat!, encoding:NSUTF8StringEncoding)
-    print("response is: \(response)")
+    print("response is: \(response!)")
+}
+
+func isFromCyberShift(cookie : NSHTTPCookie) -> Bool
+{
+    if cookie.domain == "uchicago.cybershift.net"
+    {
+        return true
+    }
+    return false
 }
 
