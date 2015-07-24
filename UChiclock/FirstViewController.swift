@@ -30,7 +30,7 @@ class FirstViewController: UIViewController {
     }
 
     @IBAction func clockInButtonPressed(sender: UIButton) {
-        makeConnection()
+        presentViewController(LoginViewController(), animated: true, completion: nil)
     }
 
 }

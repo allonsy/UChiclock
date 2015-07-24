@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7336BA261B61A40D0067C832 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7336BA251B61A40D0067C832 /* Functional.swift */; };
+		736E29DC1B63046B008C7ACB /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 736E29DB1B63046B008C7ACB /* LoginView.xib */; };
+		73DB8E451B62FB3200B8FBAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB8E441B62FB3200B8FBAD /* LoginViewController.swift */; };
 		979456121B5F4C5E002EB893 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979456111B5F4C5E002EB893 /* Auth.swift */; };
 		979F1AE11B5DEF5E00D84E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F1AE01B5DEF5E00D84E4B /* AppDelegate.swift */; };
 		979F1AE31B5DEF5E00D84E4B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F1AE21B5DEF5E00D84E4B /* FirstViewController.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		7336BA251B61A40D0067C832 /* Functional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
+		736E29DB1B63046B008C7ACB /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView.xib; path = ../LoginView.xib; sourceTree = "<group>"; };
+		73DB8E441B62FB3200B8FBAD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		979456111B5F4C5E002EB893 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		979F1ADD1B5DEF5E00D84E4B /* UChiclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UChiclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979F1AE01B5DEF5E00D84E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 		979F1ADF1B5DEF5E00D84E4B /* UChiclock */ = {
 			isa = PBXGroup;
 			children = (
+				736E29DB1B63046B008C7ACB /* LoginView.xib */,
 				979F1AE01B5DEF5E00D84E4B /* AppDelegate.swift */,
 				979F1AE21B5DEF5E00D84E4B /* FirstViewController.swift */,
 				979456111B5F4C5E002EB893 /* Auth.swift */,
@@ -112,6 +117,7 @@
 				7336BA251B61A40D0067C832 /* Functional.swift */,
 				979F1AE41B5DEF5E00D84E4B /* SecondViewController.swift */,
 				979F1AE61B5DEF5E00D84E4B /* Main.storyboard */,
+				73DB8E441B62FB3200B8FBAD /* LoginViewController.swift */,
 				979F1AE91B5DEF5E00D84E4B /* Assets.xcassets */,
 				979F1AEB1B5DEF5E00D84E4B /* LaunchScreen.storyboard */,
 				979F1AEE1B5DEF5E00D84E4B /* Info.plist */,
@@ -243,6 +249,7 @@
 			files = (
 				979F1AED1B5DEF5E00D84E4B /* LaunchScreen.storyboard in Resources */,
 				979F1AEA1B5DEF5E00D84E4B /* Assets.xcassets in Resources */,
+				736E29DC1B63046B008C7ACB /* LoginView.xib in Resources */,
 				979F1AE81B5DEF5E00D84E4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DB8E451B62FB3200B8FBAD /* LoginViewController.swift in Sources */,
 				7336BA261B61A40D0067C832 /* Functional.swift in Sources */,
 				979F1AE51B5DEF5E00D84E4B /* SecondViewController.swift in Sources */,
 				979F1AE11B5DEF5E00D84E4B /* AppDelegate.swift in Sources */,
