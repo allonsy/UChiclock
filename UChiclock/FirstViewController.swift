@@ -14,6 +14,10 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let refreshButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Refresh, target: self, action: "refreshButtonPressed")
+        navigationItem.rightBarButtonItem = refreshButton
+        
         let butText : String = ClockInButton.titleLabel!.text!
         print("Button text is: \(butText)");
         ClockInButton.setTitle("Hello", forState: .Normal)
@@ -23,6 +27,11 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
     }
+    
+    func refreshButtonPressed()
+    {
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -30,7 +39,8 @@ class FirstViewController: UIViewController {
     }
 
     @IBAction func clockInButtonPressed(sender: UIButton) {
-        presentViewController(LoginViewController(nibName:"LoginView", bundle:nil), animated: true, completion: nil)
+        makeConnection()
+        //presentViewController(LoginViewController(nibName:"LoginView", bundle:nil), animated: true, completion: nil)
     }
 
 }

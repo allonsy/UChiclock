@@ -7,6 +7,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="UChiclock" customModuleProvider="target">
             <connections>
+                <outlet property="passwordField" destination="etr-Br-5oY" id="Zz7-y6-3kR"/>
+                <outlet property="submitButton" destination="ME6-k4-D1s" id="zrR-Nu-xsu"/>
+                <outlet property="usernameField" destination="9lC-yh-c1i" id="amx-DN-An8"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,17 +18,52 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUQ-1g-eU2">
-                    <rect key="frame" x="280" y="256" width="40" height="21"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9lC-yh-c1i">
+                    <rect key="frame" x="181" y="86" width="239" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="893-F7-HGY"/>
+                        <constraint firstAttribute="width" constant="239" id="wRX-iV-D0Q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Fill Out Your Information:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w8t-nh-PgT">
+                    <rect key="frame" x="178" y="45" width="244" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="etr-Br-5oY">
+                    <rect key="frame" x="181" y="148" width="239" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="KMS-n7-GXO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ME6-k4-D1s">
+                    <rect key="frame" x="239" y="186" width="121" height="30"/>
+                    <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="121" id="8ua-3P-gsw"/>
+                    </constraints>
+                    <state key="normal" title="Submit"/>
+                    <connections>
+                        <action selector="submitButtonTapped:" destination="-1" eventType="touchUpInside" id="oDL-OB-jhm"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="hUQ-1g-eU2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5pQ-67-BIl"/>
-                <constraint firstItem="hUQ-1g-eU2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="256" id="zqD-Q5-t3E"/>
+                <constraint firstItem="w8t-nh-PgT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8C8-PH-0sC"/>
+                <constraint firstItem="9lC-yh-c1i" firstAttribute="top" secondItem="w8t-nh-PgT" secondAttribute="bottom" constant="20" id="AFT-U1-OUT"/>
+                <constraint firstItem="etr-Br-5oY" firstAttribute="leading" secondItem="9lC-yh-c1i" secondAttribute="leading" id="Ecb-3T-heE"/>
+                <constraint firstItem="ME6-k4-D1s" firstAttribute="centerX" secondItem="w8t-nh-PgT" secondAttribute="centerX" id="MNy-De-2EK"/>
+                <constraint firstItem="ME6-k4-D1s" firstAttribute="top" secondItem="etr-Br-5oY" secondAttribute="bottom" constant="8" symbolic="YES" id="OyS-to-eEV"/>
+                <constraint firstItem="w8t-nh-PgT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="45" id="Xgd-ra-3rg"/>
+                <constraint firstItem="w8t-nh-PgT" firstAttribute="centerX" secondItem="9lC-yh-c1i" secondAttribute="centerX" id="Z6Z-bD-qA6"/>
+                <constraint firstItem="etr-Br-5oY" firstAttribute="top" secondItem="9lC-yh-c1i" secondAttribute="bottom" constant="32" id="xax-hf-mjd"/>
+                <constraint firstItem="etr-Br-5oY" firstAttribute="trailing" secondItem="9lC-yh-c1i" secondAttribute="trailing" id="yKH-MZ-dDS"/>
             </constraints>
         </view>
     </objects>
